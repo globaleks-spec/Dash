@@ -1,0 +1,15 @@
+.venv/
+.runtime_packages/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+data/*.db-shm
+data/*.db-wal
+data/*.db
+!data/demo_dashboard.db
+*.xlsx
+*.xlsm
+*.log
+docs/SOURCE_ANALYSIS.md
+exports/
